@@ -9,3 +9,5 @@ def health():
 
 handler = Mangum(app) 
 #히힣
+print("hello world!")
+handler = Mangum(app) 
