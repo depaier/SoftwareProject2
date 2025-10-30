@@ -3,8 +3,8 @@ from mangum import Mangum
 
 app = FastAPI()
 
-@app.get("/health1")
+@app.get("/health")
 def health():
-    return {"nom1": True}
+    return {"nom": True}# This is a health check endpoint
 
 handler = Mangum(app) 
