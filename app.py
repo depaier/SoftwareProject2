@@ -7,5 +7,7 @@ app = FastAPI()
 def health():
     return {"nom": True}# This is a health check endpoint
 
+handler = Mangum(app) 
+#히힣
 print("hello world!")
 handler = Mangum(app) 
