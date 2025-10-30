@@ -3,7 +3,7 @@ from mangum import Mangum
 
 app = FastAPI()
 
-@app.get("/health")
+@app.get("/health1")
 def health():
     return {"ok": True}
 
