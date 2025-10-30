@@ -11,3 +11,6 @@ handler = Mangum(app)
 #히힣
 print("hello world!")
 handler = Mangum(app) 
+
+
+print("지노짱")
